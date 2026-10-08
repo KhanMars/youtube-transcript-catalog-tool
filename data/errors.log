@@ -1,0 +1,2295 @@
+
+=== kapOO09BT84 ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 705, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 613, in process_video
+    raise RuntimeError("ffmpeg is not on PATH, required for Whisper mode")
+RuntimeError: ffmpeg is not on PATH, required for Whisper mode
+
+=== 2uJE48aKVNo ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 479, in transcribe_audio
+    return run(True)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 470, in run
+    segments, _info = model.transcribe(
+                      ~~~~~~~~~~~~~~~~^
+        str(audio_path),
+        ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        word_timestamps=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 705, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 624, in process_video
+    doc["sentences"] = transcribe_audio(model_box["model"], audio_path, args.language)
+                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 482, in transcribe_audio
+    return run(False)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 470, in run
+    segments, _info = model.transcribe(
+                      ~~~~~~~~~~~~~~~~^
+        str(audio_path),
+        ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        word_timestamps=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+
+=== 12PWq22E9CQ ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 479, in transcribe_audio
+    return run(True)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 470, in run
+    segments, _info = model.transcribe(
+                      ~~~~~~~~~~~~~~~~^
+        str(audio_path),
+        ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        word_timestamps=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 705, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 624, in process_video
+    doc["sentences"] = transcribe_audio(model_box["model"], audio_path, args.language)
+                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 482, in transcribe_audio
+    return run(False)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 470, in run
+    segments, _info = model.transcribe(
+                      ~~~~~~~~~~~~~~~~^
+        str(audio_path),
+        ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        word_timestamps=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+
+=== mO1QBTG6EXs ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 479, in transcribe_audio
+    return run(True)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 470, in run
+    segments, _info = model.transcribe(
+                      ~~~~~~~~~~~~~~~~^
+        str(audio_path),
+        ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        word_timestamps=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 705, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 624, in process_video
+    doc["sentences"] = transcribe_audio(model_box["model"], audio_path, args.language)
+                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 482, in transcribe_audio
+    return run(False)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 470, in run
+    segments, _info = model.transcribe(
+                      ~~~~~~~~~~~~~~~~^
+        str(audio_path),
+        ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        word_timestamps=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+
+=== mtODX-055g8 ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 479, in transcribe_audio
+    return run(True)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 470, in run
+    segments, _info = model.transcribe(
+                      ~~~~~~~~~~~~~~~~^
+        str(audio_path),
+        ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        word_timestamps=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 705, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 624, in process_video
+    doc["sentences"] = transcribe_audio(model_box["model"], audio_path, args.language)
+                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 482, in transcribe_audio
+    return run(False)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 470, in run
+    segments, _info = model.transcribe(
+                      ~~~~~~~~~~~~~~~~^
+        str(audio_path),
+        ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        word_timestamps=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+
+=== e1h5TzdTq0o ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 479, in transcribe_audio
+    return run(True)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 470, in run
+    segments, _info = model.transcribe(
+                      ~~~~~~~~~~~~~~~~^
+        str(audio_path),
+        ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        word_timestamps=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 705, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 624, in process_video
+    doc["sentences"] = transcribe_audio(model_box["model"], audio_path, args.language)
+                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 482, in transcribe_audio
+    return run(False)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 470, in run
+    segments, _info = model.transcribe(
+                      ~~~~~~~~~~~~~~~~^
+        str(audio_path),
+        ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        word_timestamps=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+
+=== XJ87Lsx40PI ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 479, in transcribe_audio
+    return run(True)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 470, in run
+    segments, _info = model.transcribe(
+                      ~~~~~~~~~~~~~~~~^
+        str(audio_path),
+        ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        word_timestamps=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 705, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 624, in process_video
+    doc["sentences"] = transcribe_audio(model_box["model"], audio_path, args.language)
+                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 482, in transcribe_audio
+    return run(False)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 470, in run
+    segments, _info = model.transcribe(
+                      ~~~~~~~~~~~~~~~~^
+        str(audio_path),
+        ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        word_timestamps=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+
+=== Gqx0u-0zG8c ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\networking\_urllib.py", line 419, in _send
+    res = opener.open(urllib_req, timeout=self._calculate_timeout(request))
+  File "C:\Python314\Lib\urllib\request.py", line 493, in open
+    response = meth(req, response)
+  File "C:\Python314\Lib\urllib\request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "C:\Python314\Lib\urllib\request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Python314\Lib\urllib\request.py", line 464, in _call_chain
+    result = func(*args)
+  File "C:\Python314\Lib\urllib\request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 3588, in process_info
+    success, real_download = self.dl(temp_filename, info_dict)
+                             ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 3323, in dl
+    return fd.download(name, new_info, subtitle)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\downloader\common.py", line 480, in download
+    ret = self.real_download(filename, info_dict)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\downloader\http.py", line 362, in real_download
+    establish_connection()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\downloader\http.py", line 119, in establish_connection
+    ctx.data = self.ydl.urlopen(request)
+               ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4304, in urlopen
+    return self._request_director.send(req)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\networking\common.py", line 117, in send
+    response = handler.send(request)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\networking\_helper.py", line 194, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\networking\common.py", line 359, in send
+    return self._send(request)
+           ~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\networking\_urllib.py", line 424, in _send
+    raise HTTPError(UrllibResponseAdapter(e.fp), redirect_loop='redirect error' in str(e)) from e
+yt_dlp.networking.exceptions.HTTPError: HTTP Error 403: Forbidden
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 705, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 621, in process_video
+    audio_path, info = download_audio(video_id, dirs["audio"], args.cookies_from_browser)
+                       ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 388, in download_audio
+    info = ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1720, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1731, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1887, in __extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1946, in process_ie_result
+    ie_result = self.process_video_result(ie_result, download=download)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 3134, in process_video_result
+    self.process_info(new_info)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 194, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 3597, in process_info
+    self.report_error(f'unable to download video data: {err}')
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m unable to download video data: HTTP Error 403: Forbidden
+
+=== wyx-mmq87Mg ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 479, in transcribe_audio
+    return run(True)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 470, in run
+    segments, _info = model.transcribe(
+                      ~~~~~~~~~~~~~~~~^
+        str(audio_path),
+        ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        word_timestamps=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 705, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 624, in process_video
+    doc["sentences"] = transcribe_audio(model_box["model"], audio_path, args.language)
+                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 482, in transcribe_audio
+    return run(False)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 470, in run
+    segments, _info = model.transcribe(
+                      ~~~~~~~~~~~~~~~~^
+        str(audio_path),
+        ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        word_timestamps=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+
+=== cL_G31YDIZY ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 479, in transcribe_audio
+    return run(True)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 470, in run
+    segments, _info = model.transcribe(
+                      ~~~~~~~~~~~~~~~~^
+        str(audio_path),
+        ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        word_timestamps=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 705, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 624, in process_video
+    doc["sentences"] = transcribe_audio(model_box["model"], audio_path, args.language)
+                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 482, in transcribe_audio
+    return run(False)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 470, in run
+    segments, _info = model.transcribe(
+                      ~~~~~~~~~~~~~~~~^
+        str(audio_path),
+        ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        word_timestamps=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+
+=== woMQRKuIB48 ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 479, in transcribe_audio
+    return run(True)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 470, in run
+    segments, _info = model.transcribe(
+                      ~~~~~~~~~~~~~~~~^
+        str(audio_path),
+        ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        word_timestamps=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 705, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 624, in process_video
+    doc["sentences"] = transcribe_audio(model_box["model"], audio_path, args.language)
+                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 482, in transcribe_audio
+    return run(False)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 470, in run
+    segments, _info = model.transcribe(
+                      ~~~~~~~~~~~~~~~~^
+        str(audio_path),
+        ^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        word_timestamps=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+
+=== 2uJE48aKVNo ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 324, in _extract_chrome_cookies
+    cursor = _open_database_copy(cookie_database_path, tmpdir)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 1115, in _open_database_copy
+    shutil.copy(database_path, database_copy_path)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\shutil.py", line 489, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\shutil.py", line 313, in copyfile
+    with open(src, 'rb') as fsrc:
+         ~~~~^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Martin S\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Network\\Cookies'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 99, in load_cookies
+    extract_cookies_from_browser(browser_name, profile, YDLLogger(ydl), keyring=keyring, container=container))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 122, in extract_cookies_from_browser
+    return _extract_chrome_cookies(browser_name, profile, keyring, logger)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 364, in _extract_chrome_cookies
+    logger.error(message)
+    ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\utils\_utils.py", line 5706, in error
+    self._ydl.report_error(message, is_error=is_error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4226, in cookiejar
+    return load_cookies(
+        self.params.get('cookiefile'), self.params.get('cookiesfrombrowser'), self)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 113, in load_cookies
+    raise CookieLoadError('failed to load cookies')
+yt_dlp.cookies.CookieLoadError: failed to load cookies
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 730, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 622, in process_video
+    doc, sentences = download_captions(video_id, dirs["subs"], args.cookies_from_browser)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in download_captions
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 173, in retry_yt_dlp
+    return func()
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in <lambda>
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1720, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1731, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1866, in __extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 762, in extract
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 671, in initialize
+    self._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_video.py", line 1938, in _real_initialize
+    super()._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 685, in _real_initialize
+    self._initialize_pref()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 668, in _initialize_pref
+    pref_cookie = self._youtube_cookies.get('PREF')
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 762, in _youtube_cookies
+    return self._get_cookies('https://www.youtube.com')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 3762, in _get_cookies
+    return LenientSimpleCookie(self._downloader.cookiejar.get_cookie_header(url))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\functools.py", line 1126, in __get__
+    val = self.func(instance)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4230, in cookiejar
+    self.report_error(str(cause), tb=''.join(traceback.format_exception(cause)))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m [0;31mERROR:[0m Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+
+=== 12PWq22E9CQ ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 324, in _extract_chrome_cookies
+    cursor = _open_database_copy(cookie_database_path, tmpdir)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 1115, in _open_database_copy
+    shutil.copy(database_path, database_copy_path)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\shutil.py", line 489, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\shutil.py", line 313, in copyfile
+    with open(src, 'rb') as fsrc:
+         ~~~~^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Martin S\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Network\\Cookies'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 99, in load_cookies
+    extract_cookies_from_browser(browser_name, profile, YDLLogger(ydl), keyring=keyring, container=container))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 122, in extract_cookies_from_browser
+    return _extract_chrome_cookies(browser_name, profile, keyring, logger)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 364, in _extract_chrome_cookies
+    logger.error(message)
+    ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\utils\_utils.py", line 5706, in error
+    self._ydl.report_error(message, is_error=is_error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4226, in cookiejar
+    return load_cookies(
+        self.params.get('cookiefile'), self.params.get('cookiesfrombrowser'), self)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 113, in load_cookies
+    raise CookieLoadError('failed to load cookies')
+yt_dlp.cookies.CookieLoadError: failed to load cookies
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 730, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 622, in process_video
+    doc, sentences = download_captions(video_id, dirs["subs"], args.cookies_from_browser)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in download_captions
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 173, in retry_yt_dlp
+    return func()
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in <lambda>
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1720, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1731, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1866, in __extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 762, in extract
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 671, in initialize
+    self._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_video.py", line 1938, in _real_initialize
+    super()._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 685, in _real_initialize
+    self._initialize_pref()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 668, in _initialize_pref
+    pref_cookie = self._youtube_cookies.get('PREF')
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 762, in _youtube_cookies
+    return self._get_cookies('https://www.youtube.com')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 3762, in _get_cookies
+    return LenientSimpleCookie(self._downloader.cookiejar.get_cookie_header(url))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\functools.py", line 1126, in __get__
+    val = self.func(instance)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4230, in cookiejar
+    self.report_error(str(cause), tb=''.join(traceback.format_exception(cause)))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m [0;31mERROR:[0m Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+
+=== mO1QBTG6EXs ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 324, in _extract_chrome_cookies
+    cursor = _open_database_copy(cookie_database_path, tmpdir)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 1115, in _open_database_copy
+    shutil.copy(database_path, database_copy_path)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\shutil.py", line 489, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\shutil.py", line 313, in copyfile
+    with open(src, 'rb') as fsrc:
+         ~~~~^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Martin S\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Network\\Cookies'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 99, in load_cookies
+    extract_cookies_from_browser(browser_name, profile, YDLLogger(ydl), keyring=keyring, container=container))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 122, in extract_cookies_from_browser
+    return _extract_chrome_cookies(browser_name, profile, keyring, logger)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 364, in _extract_chrome_cookies
+    logger.error(message)
+    ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\utils\_utils.py", line 5706, in error
+    self._ydl.report_error(message, is_error=is_error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4226, in cookiejar
+    return load_cookies(
+        self.params.get('cookiefile'), self.params.get('cookiesfrombrowser'), self)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 113, in load_cookies
+    raise CookieLoadError('failed to load cookies')
+yt_dlp.cookies.CookieLoadError: failed to load cookies
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 730, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 622, in process_video
+    doc, sentences = download_captions(video_id, dirs["subs"], args.cookies_from_browser)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in download_captions
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 173, in retry_yt_dlp
+    return func()
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in <lambda>
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1720, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1731, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1866, in __extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 762, in extract
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 671, in initialize
+    self._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_video.py", line 1938, in _real_initialize
+    super()._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 685, in _real_initialize
+    self._initialize_pref()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 668, in _initialize_pref
+    pref_cookie = self._youtube_cookies.get('PREF')
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 762, in _youtube_cookies
+    return self._get_cookies('https://www.youtube.com')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 3762, in _get_cookies
+    return LenientSimpleCookie(self._downloader.cookiejar.get_cookie_header(url))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\functools.py", line 1126, in __get__
+    val = self.func(instance)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4230, in cookiejar
+    self.report_error(str(cause), tb=''.join(traceback.format_exception(cause)))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m [0;31mERROR:[0m Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+
+=== mtODX-055g8 ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 324, in _extract_chrome_cookies
+    cursor = _open_database_copy(cookie_database_path, tmpdir)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 1115, in _open_database_copy
+    shutil.copy(database_path, database_copy_path)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\shutil.py", line 489, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\shutil.py", line 313, in copyfile
+    with open(src, 'rb') as fsrc:
+         ~~~~^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Martin S\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Network\\Cookies'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 99, in load_cookies
+    extract_cookies_from_browser(browser_name, profile, YDLLogger(ydl), keyring=keyring, container=container))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 122, in extract_cookies_from_browser
+    return _extract_chrome_cookies(browser_name, profile, keyring, logger)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 364, in _extract_chrome_cookies
+    logger.error(message)
+    ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\utils\_utils.py", line 5706, in error
+    self._ydl.report_error(message, is_error=is_error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4226, in cookiejar
+    return load_cookies(
+        self.params.get('cookiefile'), self.params.get('cookiesfrombrowser'), self)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 113, in load_cookies
+    raise CookieLoadError('failed to load cookies')
+yt_dlp.cookies.CookieLoadError: failed to load cookies
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 730, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 622, in process_video
+    doc, sentences = download_captions(video_id, dirs["subs"], args.cookies_from_browser)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in download_captions
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 173, in retry_yt_dlp
+    return func()
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in <lambda>
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1720, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1731, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1866, in __extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 762, in extract
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 671, in initialize
+    self._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_video.py", line 1938, in _real_initialize
+    super()._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 685, in _real_initialize
+    self._initialize_pref()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 668, in _initialize_pref
+    pref_cookie = self._youtube_cookies.get('PREF')
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 762, in _youtube_cookies
+    return self._get_cookies('https://www.youtube.com')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 3762, in _get_cookies
+    return LenientSimpleCookie(self._downloader.cookiejar.get_cookie_header(url))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\functools.py", line 1126, in __get__
+    val = self.func(instance)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4230, in cookiejar
+    self.report_error(str(cause), tb=''.join(traceback.format_exception(cause)))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m [0;31mERROR:[0m Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+
+=== e1h5TzdTq0o ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 324, in _extract_chrome_cookies
+    cursor = _open_database_copy(cookie_database_path, tmpdir)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 1115, in _open_database_copy
+    shutil.copy(database_path, database_copy_path)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\shutil.py", line 489, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\shutil.py", line 313, in copyfile
+    with open(src, 'rb') as fsrc:
+         ~~~~^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Martin S\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Network\\Cookies'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 99, in load_cookies
+    extract_cookies_from_browser(browser_name, profile, YDLLogger(ydl), keyring=keyring, container=container))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 122, in extract_cookies_from_browser
+    return _extract_chrome_cookies(browser_name, profile, keyring, logger)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 364, in _extract_chrome_cookies
+    logger.error(message)
+    ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\utils\_utils.py", line 5706, in error
+    self._ydl.report_error(message, is_error=is_error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4226, in cookiejar
+    return load_cookies(
+        self.params.get('cookiefile'), self.params.get('cookiesfrombrowser'), self)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 113, in load_cookies
+    raise CookieLoadError('failed to load cookies')
+yt_dlp.cookies.CookieLoadError: failed to load cookies
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 730, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 622, in process_video
+    doc, sentences = download_captions(video_id, dirs["subs"], args.cookies_from_browser)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in download_captions
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 173, in retry_yt_dlp
+    return func()
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in <lambda>
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1720, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1731, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1866, in __extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 762, in extract
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 671, in initialize
+    self._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_video.py", line 1938, in _real_initialize
+    super()._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 685, in _real_initialize
+    self._initialize_pref()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 668, in _initialize_pref
+    pref_cookie = self._youtube_cookies.get('PREF')
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 762, in _youtube_cookies
+    return self._get_cookies('https://www.youtube.com')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 3762, in _get_cookies
+    return LenientSimpleCookie(self._downloader.cookiejar.get_cookie_header(url))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\functools.py", line 1126, in __get__
+    val = self.func(instance)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4230, in cookiejar
+    self.report_error(str(cause), tb=''.join(traceback.format_exception(cause)))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m [0;31mERROR:[0m Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+
+=== XJ87Lsx40PI ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 324, in _extract_chrome_cookies
+    cursor = _open_database_copy(cookie_database_path, tmpdir)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 1115, in _open_database_copy
+    shutil.copy(database_path, database_copy_path)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\shutil.py", line 489, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\shutil.py", line 313, in copyfile
+    with open(src, 'rb') as fsrc:
+         ~~~~^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Martin S\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Network\\Cookies'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 99, in load_cookies
+    extract_cookies_from_browser(browser_name, profile, YDLLogger(ydl), keyring=keyring, container=container))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 122, in extract_cookies_from_browser
+    return _extract_chrome_cookies(browser_name, profile, keyring, logger)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 364, in _extract_chrome_cookies
+    logger.error(message)
+    ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\utils\_utils.py", line 5706, in error
+    self._ydl.report_error(message, is_error=is_error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4226, in cookiejar
+    return load_cookies(
+        self.params.get('cookiefile'), self.params.get('cookiesfrombrowser'), self)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 113, in load_cookies
+    raise CookieLoadError('failed to load cookies')
+yt_dlp.cookies.CookieLoadError: failed to load cookies
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 730, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 622, in process_video
+    doc, sentences = download_captions(video_id, dirs["subs"], args.cookies_from_browser)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in download_captions
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 173, in retry_yt_dlp
+    return func()
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in <lambda>
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1720, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1731, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1866, in __extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 762, in extract
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 671, in initialize
+    self._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_video.py", line 1938, in _real_initialize
+    super()._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 685, in _real_initialize
+    self._initialize_pref()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 668, in _initialize_pref
+    pref_cookie = self._youtube_cookies.get('PREF')
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 762, in _youtube_cookies
+    return self._get_cookies('https://www.youtube.com')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 3762, in _get_cookies
+    return LenientSimpleCookie(self._downloader.cookiejar.get_cookie_header(url))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\functools.py", line 1126, in __get__
+    val = self.func(instance)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4230, in cookiejar
+    self.report_error(str(cause), tb=''.join(traceback.format_exception(cause)))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m [0;31mERROR:[0m Could not copy Chrome cookie database. See  https://github.com/yt-dlp/yt-dlp/issues/7271  for more info
+
+=== 2uJE48aKVNo ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 99, in load_cookies
+    extract_cookies_from_browser(browser_name, profile, YDLLogger(ydl), keyring=keyring, container=container))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 122, in extract_cookies_from_browser
+    return _extract_chrome_cookies(browser_name, profile, keyring, logger)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 345, in _extract_chrome_cookies
+    is_encrypted, cookie = _process_chrome_cookie(decryptor, *line)
+                           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 380, in _process_chrome_cookie
+    value = decryptor.decrypt(encrypted_value)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 565, in decrypt
+    return _decrypt_windows_dpapi(encrypted_value, self._logger).decode()
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 1100, in _decrypt_windows_dpapi
+    logger.error(message)
+    ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\utils\_utils.py", line 5706, in error
+    self._ydl.report_error(message, is_error=is_error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4226, in cookiejar
+    return load_cookies(
+        self.params.get('cookiefile'), self.params.get('cookiesfrombrowser'), self)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 113, in load_cookies
+    raise CookieLoadError('failed to load cookies')
+yt_dlp.cookies.CookieLoadError: failed to load cookies
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 730, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 622, in process_video
+    doc, sentences = download_captions(video_id, dirs["subs"], args.cookies_from_browser)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in download_captions
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 173, in retry_yt_dlp
+    return func()
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in <lambda>
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1720, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1731, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1866, in __extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 762, in extract
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 671, in initialize
+    self._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_video.py", line 1938, in _real_initialize
+    super()._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 685, in _real_initialize
+    self._initialize_pref()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 668, in _initialize_pref
+    pref_cookie = self._youtube_cookies.get('PREF')
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 762, in _youtube_cookies
+    return self._get_cookies('https://www.youtube.com')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 3762, in _get_cookies
+    return LenientSimpleCookie(self._downloader.cookiejar.get_cookie_header(url))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\functools.py", line 1126, in __get__
+    val = self.func(instance)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4230, in cookiejar
+    self.report_error(str(cause), tb=''.join(traceback.format_exception(cause)))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+=== 12PWq22E9CQ ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 99, in load_cookies
+    extract_cookies_from_browser(browser_name, profile, YDLLogger(ydl), keyring=keyring, container=container))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 122, in extract_cookies_from_browser
+    return _extract_chrome_cookies(browser_name, profile, keyring, logger)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 345, in _extract_chrome_cookies
+    is_encrypted, cookie = _process_chrome_cookie(decryptor, *line)
+                           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 380, in _process_chrome_cookie
+    value = decryptor.decrypt(encrypted_value)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 565, in decrypt
+    return _decrypt_windows_dpapi(encrypted_value, self._logger).decode()
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 1100, in _decrypt_windows_dpapi
+    logger.error(message)
+    ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\utils\_utils.py", line 5706, in error
+    self._ydl.report_error(message, is_error=is_error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4226, in cookiejar
+    return load_cookies(
+        self.params.get('cookiefile'), self.params.get('cookiesfrombrowser'), self)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 113, in load_cookies
+    raise CookieLoadError('failed to load cookies')
+yt_dlp.cookies.CookieLoadError: failed to load cookies
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 730, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 622, in process_video
+    doc, sentences = download_captions(video_id, dirs["subs"], args.cookies_from_browser)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in download_captions
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 173, in retry_yt_dlp
+    return func()
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in <lambda>
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1720, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1731, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1866, in __extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 762, in extract
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 671, in initialize
+    self._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_video.py", line 1938, in _real_initialize
+    super()._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 685, in _real_initialize
+    self._initialize_pref()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 668, in _initialize_pref
+    pref_cookie = self._youtube_cookies.get('PREF')
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 762, in _youtube_cookies
+    return self._get_cookies('https://www.youtube.com')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 3762, in _get_cookies
+    return LenientSimpleCookie(self._downloader.cookiejar.get_cookie_header(url))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\functools.py", line 1126, in __get__
+    val = self.func(instance)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4230, in cookiejar
+    self.report_error(str(cause), tb=''.join(traceback.format_exception(cause)))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+=== mO1QBTG6EXs ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 99, in load_cookies
+    extract_cookies_from_browser(browser_name, profile, YDLLogger(ydl), keyring=keyring, container=container))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 122, in extract_cookies_from_browser
+    return _extract_chrome_cookies(browser_name, profile, keyring, logger)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 345, in _extract_chrome_cookies
+    is_encrypted, cookie = _process_chrome_cookie(decryptor, *line)
+                           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 380, in _process_chrome_cookie
+    value = decryptor.decrypt(encrypted_value)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 565, in decrypt
+    return _decrypt_windows_dpapi(encrypted_value, self._logger).decode()
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 1100, in _decrypt_windows_dpapi
+    logger.error(message)
+    ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\utils\_utils.py", line 5706, in error
+    self._ydl.report_error(message, is_error=is_error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4226, in cookiejar
+    return load_cookies(
+        self.params.get('cookiefile'), self.params.get('cookiesfrombrowser'), self)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 113, in load_cookies
+    raise CookieLoadError('failed to load cookies')
+yt_dlp.cookies.CookieLoadError: failed to load cookies
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 730, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 622, in process_video
+    doc, sentences = download_captions(video_id, dirs["subs"], args.cookies_from_browser)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in download_captions
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 173, in retry_yt_dlp
+    return func()
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in <lambda>
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1720, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1731, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1866, in __extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 762, in extract
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 671, in initialize
+    self._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_video.py", line 1938, in _real_initialize
+    super()._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 685, in _real_initialize
+    self._initialize_pref()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 668, in _initialize_pref
+    pref_cookie = self._youtube_cookies.get('PREF')
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 762, in _youtube_cookies
+    return self._get_cookies('https://www.youtube.com')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 3762, in _get_cookies
+    return LenientSimpleCookie(self._downloader.cookiejar.get_cookie_header(url))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\functools.py", line 1126, in __get__
+    val = self.func(instance)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4230, in cookiejar
+    self.report_error(str(cause), tb=''.join(traceback.format_exception(cause)))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+=== mtODX-055g8 ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 99, in load_cookies
+    extract_cookies_from_browser(browser_name, profile, YDLLogger(ydl), keyring=keyring, container=container))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 122, in extract_cookies_from_browser
+    return _extract_chrome_cookies(browser_name, profile, keyring, logger)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 345, in _extract_chrome_cookies
+    is_encrypted, cookie = _process_chrome_cookie(decryptor, *line)
+                           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 380, in _process_chrome_cookie
+    value = decryptor.decrypt(encrypted_value)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 565, in decrypt
+    return _decrypt_windows_dpapi(encrypted_value, self._logger).decode()
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 1100, in _decrypt_windows_dpapi
+    logger.error(message)
+    ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\utils\_utils.py", line 5706, in error
+    self._ydl.report_error(message, is_error=is_error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4226, in cookiejar
+    return load_cookies(
+        self.params.get('cookiefile'), self.params.get('cookiesfrombrowser'), self)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 113, in load_cookies
+    raise CookieLoadError('failed to load cookies')
+yt_dlp.cookies.CookieLoadError: failed to load cookies
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 730, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 622, in process_video
+    doc, sentences = download_captions(video_id, dirs["subs"], args.cookies_from_browser)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in download_captions
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 173, in retry_yt_dlp
+    return func()
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in <lambda>
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1720, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1731, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1866, in __extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 762, in extract
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 671, in initialize
+    self._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_video.py", line 1938, in _real_initialize
+    super()._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 685, in _real_initialize
+    self._initialize_pref()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 668, in _initialize_pref
+    pref_cookie = self._youtube_cookies.get('PREF')
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 762, in _youtube_cookies
+    return self._get_cookies('https://www.youtube.com')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 3762, in _get_cookies
+    return LenientSimpleCookie(self._downloader.cookiejar.get_cookie_header(url))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\functools.py", line 1126, in __get__
+    val = self.func(instance)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4230, in cookiejar
+    self.report_error(str(cause), tb=''.join(traceback.format_exception(cause)))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+=== e1h5TzdTq0o ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 99, in load_cookies
+    extract_cookies_from_browser(browser_name, profile, YDLLogger(ydl), keyring=keyring, container=container))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 122, in extract_cookies_from_browser
+    return _extract_chrome_cookies(browser_name, profile, keyring, logger)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 345, in _extract_chrome_cookies
+    is_encrypted, cookie = _process_chrome_cookie(decryptor, *line)
+                           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 380, in _process_chrome_cookie
+    value = decryptor.decrypt(encrypted_value)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 565, in decrypt
+    return _decrypt_windows_dpapi(encrypted_value, self._logger).decode()
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 1100, in _decrypt_windows_dpapi
+    logger.error(message)
+    ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\utils\_utils.py", line 5706, in error
+    self._ydl.report_error(message, is_error=is_error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4226, in cookiejar
+    return load_cookies(
+        self.params.get('cookiefile'), self.params.get('cookiesfrombrowser'), self)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 113, in load_cookies
+    raise CookieLoadError('failed to load cookies')
+yt_dlp.cookies.CookieLoadError: failed to load cookies
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 730, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 622, in process_video
+    doc, sentences = download_captions(video_id, dirs["subs"], args.cookies_from_browser)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in download_captions
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 173, in retry_yt_dlp
+    return func()
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in <lambda>
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1720, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1731, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1866, in __extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 762, in extract
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 671, in initialize
+    self._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_video.py", line 1938, in _real_initialize
+    super()._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 685, in _real_initialize
+    self._initialize_pref()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 668, in _initialize_pref
+    pref_cookie = self._youtube_cookies.get('PREF')
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 762, in _youtube_cookies
+    return self._get_cookies('https://www.youtube.com')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 3762, in _get_cookies
+    return LenientSimpleCookie(self._downloader.cookiejar.get_cookie_header(url))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\functools.py", line 1126, in __get__
+    val = self.func(instance)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4230, in cookiejar
+    self.report_error(str(cause), tb=''.join(traceback.format_exception(cause)))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+=== XJ87Lsx40PI ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 99, in load_cookies
+    extract_cookies_from_browser(browser_name, profile, YDLLogger(ydl), keyring=keyring, container=container))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 122, in extract_cookies_from_browser
+    return _extract_chrome_cookies(browser_name, profile, keyring, logger)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 345, in _extract_chrome_cookies
+    is_encrypted, cookie = _process_chrome_cookie(decryptor, *line)
+                           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 380, in _process_chrome_cookie
+    value = decryptor.decrypt(encrypted_value)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 565, in decrypt
+    return _decrypt_windows_dpapi(encrypted_value, self._logger).decode()
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 1100, in _decrypt_windows_dpapi
+    logger.error(message)
+    ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\utils\_utils.py", line 5706, in error
+    self._ydl.report_error(message, is_error=is_error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4226, in cookiejar
+    return load_cookies(
+        self.params.get('cookiefile'), self.params.get('cookiesfrombrowser'), self)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 113, in load_cookies
+    raise CookieLoadError('failed to load cookies')
+yt_dlp.cookies.CookieLoadError: failed to load cookies
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 730, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 622, in process_video
+    doc, sentences = download_captions(video_id, dirs["subs"], args.cookies_from_browser)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in download_captions
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 173, in retry_yt_dlp
+    return func()
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in <lambda>
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1720, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1731, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1866, in __extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 762, in extract
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 671, in initialize
+    self._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_video.py", line 1938, in _real_initialize
+    super()._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 685, in _real_initialize
+    self._initialize_pref()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 668, in _initialize_pref
+    pref_cookie = self._youtube_cookies.get('PREF')
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 762, in _youtube_cookies
+    return self._get_cookies('https://www.youtube.com')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 3762, in _get_cookies
+    return LenientSimpleCookie(self._downloader.cookiejar.get_cookie_header(url))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\functools.py", line 1126, in __get__
+    val = self.func(instance)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4230, in cookiejar
+    self.report_error(str(cause), tb=''.join(traceback.format_exception(cause)))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+=== Gqx0u-0zG8c ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 99, in load_cookies
+    extract_cookies_from_browser(browser_name, profile, YDLLogger(ydl), keyring=keyring, container=container))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 122, in extract_cookies_from_browser
+    return _extract_chrome_cookies(browser_name, profile, keyring, logger)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 345, in _extract_chrome_cookies
+    is_encrypted, cookie = _process_chrome_cookie(decryptor, *line)
+                           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 380, in _process_chrome_cookie
+    value = decryptor.decrypt(encrypted_value)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 565, in decrypt
+    return _decrypt_windows_dpapi(encrypted_value, self._logger).decode()
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 1100, in _decrypt_windows_dpapi
+    logger.error(message)
+    ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\utils\_utils.py", line 5706, in error
+    self._ydl.report_error(message, is_error=is_error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4226, in cookiejar
+    return load_cookies(
+        self.params.get('cookiefile'), self.params.get('cookiesfrombrowser'), self)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 113, in load_cookies
+    raise CookieLoadError('failed to load cookies')
+yt_dlp.cookies.CookieLoadError: failed to load cookies
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 730, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 622, in process_video
+    doc, sentences = download_captions(video_id, dirs["subs"], args.cookies_from_browser)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in download_captions
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 173, in retry_yt_dlp
+    return func()
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in <lambda>
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1720, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1731, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1866, in __extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 762, in extract
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 671, in initialize
+    self._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_video.py", line 1938, in _real_initialize
+    super()._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 685, in _real_initialize
+    self._initialize_pref()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 668, in _initialize_pref
+    pref_cookie = self._youtube_cookies.get('PREF')
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 762, in _youtube_cookies
+    return self._get_cookies('https://www.youtube.com')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 3762, in _get_cookies
+    return LenientSimpleCookie(self._downloader.cookiejar.get_cookie_header(url))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\functools.py", line 1126, in __get__
+    val = self.func(instance)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4230, in cookiejar
+    self.report_error(str(cause), tb=''.join(traceback.format_exception(cause)))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+=== wyx-mmq87Mg ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 99, in load_cookies
+    extract_cookies_from_browser(browser_name, profile, YDLLogger(ydl), keyring=keyring, container=container))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 122, in extract_cookies_from_browser
+    return _extract_chrome_cookies(browser_name, profile, keyring, logger)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 345, in _extract_chrome_cookies
+    is_encrypted, cookie = _process_chrome_cookie(decryptor, *line)
+                           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 380, in _process_chrome_cookie
+    value = decryptor.decrypt(encrypted_value)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 565, in decrypt
+    return _decrypt_windows_dpapi(encrypted_value, self._logger).decode()
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 1100, in _decrypt_windows_dpapi
+    logger.error(message)
+    ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\utils\_utils.py", line 5706, in error
+    self._ydl.report_error(message, is_error=is_error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4226, in cookiejar
+    return load_cookies(
+        self.params.get('cookiefile'), self.params.get('cookiesfrombrowser'), self)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 113, in load_cookies
+    raise CookieLoadError('failed to load cookies')
+yt_dlp.cookies.CookieLoadError: failed to load cookies
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 730, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 622, in process_video
+    doc, sentences = download_captions(video_id, dirs["subs"], args.cookies_from_browser)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in download_captions
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 173, in retry_yt_dlp
+    return func()
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in <lambda>
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1720, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1731, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1866, in __extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 762, in extract
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 671, in initialize
+    self._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_video.py", line 1938, in _real_initialize
+    super()._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 685, in _real_initialize
+    self._initialize_pref()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 668, in _initialize_pref
+    pref_cookie = self._youtube_cookies.get('PREF')
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 762, in _youtube_cookies
+    return self._get_cookies('https://www.youtube.com')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 3762, in _get_cookies
+    return LenientSimpleCookie(self._downloader.cookiejar.get_cookie_header(url))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\functools.py", line 1126, in __get__
+    val = self.func(instance)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4230, in cookiejar
+    self.report_error(str(cause), tb=''.join(traceback.format_exception(cause)))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+=== cL_G31YDIZY ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 99, in load_cookies
+    extract_cookies_from_browser(browser_name, profile, YDLLogger(ydl), keyring=keyring, container=container))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 122, in extract_cookies_from_browser
+    return _extract_chrome_cookies(browser_name, profile, keyring, logger)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 345, in _extract_chrome_cookies
+    is_encrypted, cookie = _process_chrome_cookie(decryptor, *line)
+                           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 380, in _process_chrome_cookie
+    value = decryptor.decrypt(encrypted_value)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 565, in decrypt
+    return _decrypt_windows_dpapi(encrypted_value, self._logger).decode()
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 1100, in _decrypt_windows_dpapi
+    logger.error(message)
+    ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\utils\_utils.py", line 5706, in error
+    self._ydl.report_error(message, is_error=is_error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4226, in cookiejar
+    return load_cookies(
+        self.params.get('cookiefile'), self.params.get('cookiesfrombrowser'), self)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 113, in load_cookies
+    raise CookieLoadError('failed to load cookies')
+yt_dlp.cookies.CookieLoadError: failed to load cookies
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 730, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 622, in process_video
+    doc, sentences = download_captions(video_id, dirs["subs"], args.cookies_from_browser)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in download_captions
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 173, in retry_yt_dlp
+    return func()
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in <lambda>
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1720, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1731, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1866, in __extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 762, in extract
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 671, in initialize
+    self._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_video.py", line 1938, in _real_initialize
+    super()._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 685, in _real_initialize
+    self._initialize_pref()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 668, in _initialize_pref
+    pref_cookie = self._youtube_cookies.get('PREF')
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 762, in _youtube_cookies
+    return self._get_cookies('https://www.youtube.com')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 3762, in _get_cookies
+    return LenientSimpleCookie(self._downloader.cookiejar.get_cookie_header(url))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\functools.py", line 1126, in __get__
+    val = self.func(instance)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4230, in cookiejar
+    self.report_error(str(cause), tb=''.join(traceback.format_exception(cause)))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+=== woMQRKuIB48 ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 99, in load_cookies
+    extract_cookies_from_browser(browser_name, profile, YDLLogger(ydl), keyring=keyring, container=container))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 122, in extract_cookies_from_browser
+    return _extract_chrome_cookies(browser_name, profile, keyring, logger)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 345, in _extract_chrome_cookies
+    is_encrypted, cookie = _process_chrome_cookie(decryptor, *line)
+                           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 380, in _process_chrome_cookie
+    value = decryptor.decrypt(encrypted_value)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 565, in decrypt
+    return _decrypt_windows_dpapi(encrypted_value, self._logger).decode()
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 1100, in _decrypt_windows_dpapi
+    logger.error(message)
+    ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\utils\_utils.py", line 5706, in error
+    self._ydl.report_error(message, is_error=is_error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4226, in cookiejar
+    return load_cookies(
+        self.params.get('cookiefile'), self.params.get('cookiesfrombrowser'), self)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 113, in load_cookies
+    raise CookieLoadError('failed to load cookies')
+yt_dlp.cookies.CookieLoadError: failed to load cookies
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 730, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 622, in process_video
+    doc, sentences = download_captions(video_id, dirs["subs"], args.cookies_from_browser)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in download_captions
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 173, in retry_yt_dlp
+    return func()
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in <lambda>
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1720, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1731, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1866, in __extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 762, in extract
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 671, in initialize
+    self._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_video.py", line 1938, in _real_initialize
+    super()._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 685, in _real_initialize
+    self._initialize_pref()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 668, in _initialize_pref
+    pref_cookie = self._youtube_cookies.get('PREF')
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 762, in _youtube_cookies
+    return self._get_cookies('https://www.youtube.com')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 3762, in _get_cookies
+    return LenientSimpleCookie(self._downloader.cookiejar.get_cookie_header(url))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\functools.py", line 1126, in __get__
+    val = self.func(instance)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4230, in cookiejar
+    self.report_error(str(cause), tb=''.join(traceback.format_exception(cause)))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+=== vS6an2tZqcE ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 99, in load_cookies
+    extract_cookies_from_browser(browser_name, profile, YDLLogger(ydl), keyring=keyring, container=container))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 122, in extract_cookies_from_browser
+    return _extract_chrome_cookies(browser_name, profile, keyring, logger)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 345, in _extract_chrome_cookies
+    is_encrypted, cookie = _process_chrome_cookie(decryptor, *line)
+                           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 380, in _process_chrome_cookie
+    value = decryptor.decrypt(encrypted_value)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 565, in decrypt
+    return _decrypt_windows_dpapi(encrypted_value, self._logger).decode()
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 1100, in _decrypt_windows_dpapi
+    logger.error(message)
+    ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\utils\_utils.py", line 5706, in error
+    self._ydl.report_error(message, is_error=is_error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4226, in cookiejar
+    return load_cookies(
+        self.params.get('cookiefile'), self.params.get('cookiesfrombrowser'), self)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 113, in load_cookies
+    raise CookieLoadError('failed to load cookies')
+yt_dlp.cookies.CookieLoadError: failed to load cookies
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 730, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 622, in process_video
+    doc, sentences = download_captions(video_id, dirs["subs"], args.cookies_from_browser)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in download_captions
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 173, in retry_yt_dlp
+    return func()
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in <lambda>
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1720, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1731, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1866, in __extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 762, in extract
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 671, in initialize
+    self._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_video.py", line 1938, in _real_initialize
+    super()._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 685, in _real_initialize
+    self._initialize_pref()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 668, in _initialize_pref
+    pref_cookie = self._youtube_cookies.get('PREF')
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 762, in _youtube_cookies
+    return self._get_cookies('https://www.youtube.com')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 3762, in _get_cookies
+    return LenientSimpleCookie(self._downloader.cookiejar.get_cookie_header(url))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\functools.py", line 1126, in __get__
+    val = self.func(instance)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4230, in cookiejar
+    self.report_error(str(cause), tb=''.join(traceback.format_exception(cause)))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+=== nYG6QA9gF0o ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 99, in load_cookies
+    extract_cookies_from_browser(browser_name, profile, YDLLogger(ydl), keyring=keyring, container=container))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 122, in extract_cookies_from_browser
+    return _extract_chrome_cookies(browser_name, profile, keyring, logger)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 345, in _extract_chrome_cookies
+    is_encrypted, cookie = _process_chrome_cookie(decryptor, *line)
+                           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 380, in _process_chrome_cookie
+    value = decryptor.decrypt(encrypted_value)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 565, in decrypt
+    return _decrypt_windows_dpapi(encrypted_value, self._logger).decode()
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 1100, in _decrypt_windows_dpapi
+    logger.error(message)
+    ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\utils\_utils.py", line 5706, in error
+    self._ydl.report_error(message, is_error=is_error)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4226, in cookiejar
+    return load_cookies(
+        self.params.get('cookiefile'), self.params.get('cookiesfrombrowser'), self)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\cookies.py", line 113, in load_cookies
+    raise CookieLoadError('failed to load cookies')
+yt_dlp.cookies.CookieLoadError: failed to load cookies
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 730, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 622, in process_video
+    doc, sentences = download_captions(video_id, dirs["subs"], args.cookies_from_browser)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in download_captions
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 173, in retry_yt_dlp
+    return func()
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in <lambda>
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1720, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1731, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1866, in __extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 762, in extract
+    self.initialize()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 671, in initialize
+    self._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_video.py", line 1938, in _real_initialize
+    super()._real_initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 685, in _real_initialize
+    self._initialize_pref()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 668, in _initialize_pref
+    pref_cookie = self._youtube_cookies.get('PREF')
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\youtube\_base.py", line 762, in _youtube_cookies
+    return self._get_cookies('https://www.youtube.com')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\extractor\common.py", line 3762, in _get_cookies
+    return LenientSimpleCookie(self._downloader.cookiejar.get_cookie_header(url))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\functools.py", line 1126, in __get__
+    val = self.func(instance)
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 4230, in cookiejar
+    self.report_error(str(cause), tb=''.join(traceback.format_exception(cause)))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1165, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\AppData\Roaming\Python\Python314\site-packages\yt_dlp\YoutubeDL.py", line 1103, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m [0;31mERROR:[0m Failed to decrypt with DPAPI. See  https://github.com/yt-dlp/yt-dlp/issues/10927  for more info
+
+=== 2uJE48aKVNo ===
+Traceback (most recent call last):
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 730, in main
+    status = process_video(video_id, args, conn, dirs, model_box)
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 622, in process_video
+    doc, sentences = download_captions(video_id, dirs["subs"], args.cookies_from_browser)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 378, in download_captions
+    info = retry_yt_dlp(lambda: ydl.extract_info(f"https://www.youtube.com/watch?v={video_id}", download=True))
+  File "C:\Users\Martin S\Documents\Software Developer Jr\projects\youtube-transcript-catalog-tool\pipeline.py", line 181, in retry_yt_dlp
+    raise
+RuntimeError: No active exception to reraise
